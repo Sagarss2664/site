@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.io/Sagarss2664/Site",
+  "homepage": "https://github.io/Sagarss2664/site",
   "name": "startup-website",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,7 @@
   "scripts": {
     "predeplay":"npm run build",
     "start": "react-scripts start",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d src",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
