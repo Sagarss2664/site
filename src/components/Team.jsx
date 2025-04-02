@@ -12,7 +12,7 @@ const Team = () => {
       role: "Professor",
       university: "KLE Technological University Hubli",
       email: "sunithahiremath64@gmail.com",
-      bio: "Dr. P G Sunitha Hiremath guides us in the overall project and helps in designing the app interface.",
+      bio: "Dr. P G Sunitha Hiremath madam guides us in the overall project and helps in designing the app interface.",
       image: Sunitha
     },
     {
