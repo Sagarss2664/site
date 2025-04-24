@@ -117,7 +117,7 @@ const Services = () => {
     const apartment = apartmentData.find(apt => apt.flat === selectedApartment);
     
     if (!apartment) {
-      setErrorMessage('Invalid apartment selected');
+      setErrorMessage('Invalid Flat selected');
       return;
     }
 
@@ -201,7 +201,7 @@ const Services = () => {
                 <div className="steps">
                   <div className={`step ${selectedApartment ? 'completed' : ''}`}>
                     <span>1</span>
-                    <p>Select Your Apartment</p>
+                    <p>Select Your Flat</p>
                   </div>
                   <div className={`step ${name && mobile ? 'completed' : ''}`}>
                     <span>2</span>
@@ -216,14 +216,14 @@ const Services = () => {
                 <div className="verification-form">
                   <form onSubmit={handleVerify}>
                     <div className="form-group">
-                      <label htmlFor="apartment">Select Apartment</label>
+                      <label htmlFor="apartment">Select Flat</label>
                       <select
                         id="apartment"
                         value={selectedApartment}
                         onChange={handleApartmentChange}
                         required
                       >
-                        <option value="">-- Select Apartment --</option>
+                        <option value="">-- Select Flat --</option>
                         {apartmentData.map((apt) => (
                           <option key={apt.flat} value={apt.flat}>
                             {apt.flat} - {apt.owner} - +91 ******{apt.mobile.slice(-4)}
