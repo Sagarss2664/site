@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.307260be.css",
-    "main.js": "/site/static/js/main.5cf886d9.js",
+    "main.css": "/site/static/css/main.d27df059.css",
+    "main.js": "/site/static/js/main.985dfd06.js",
     "static/js/453.eb52d8aa.chunk.js": "/site/static/js/453.eb52d8aa.chunk.js",
+    "static/media/Akshya_Garden.apk": "/site/static/media/Akshya_Garden.81343140d9c1b743269b.apk",
     "static/media/Sunitha.png": "/site/static/media/Sunitha.61079b902ae0a8c6d1a8.png",
     "static/media/Vishwanath.jpg": "/site/static/media/Vishwanath.8f36358ec4fd71f0180d.jpg",
     "static/media/Sagar.jpg": "/site/static/media/Sagar.290513f30a7c87167fc8.jpg",
     "static/media/Koushik.jpg": "/site/static/media/Koushik.3fa83ba012879c4d1844.jpg",
     "index.html": "/site/index.html",
-    "main.307260be.css.map": "/site/static/css/main.307260be.css.map",
-    "main.5cf886d9.js.map": "/site/static/js/main.5cf886d9.js.map",
+    "main.d27df059.css.map": "/site/static/css/main.d27df059.css.map",
+    "main.985dfd06.js.map": "/site/static/js/main.985dfd06.js.map",
     "453.eb52d8aa.chunk.js.map": "/site/static/js/453.eb52d8aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.307260be.css",
-    "static/js/main.5cf886d9.js"
+    "static/css/main.d27df059.css",
+    "static/js/main.985dfd06.js"
   ]
 }
