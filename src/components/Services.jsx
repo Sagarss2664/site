@@ -121,15 +121,13 @@ const Services = () => {
       return;
     }
 
-    const lastFourDigits = mobile.slice(-4);
-    const storedLastFour = apartment.mobile.slice(-4);
-
     if (name.trim() === '' || mobile.length < 10) {
       setErrorMessage('Please enter valid name and 10-digit mobile number');
       return;
     }
 
-    if (lastFourDigits === storedLastFour) {
+    // Changed to verify complete mobile number instead of last 4 digits
+    if (mobile === apartment.mobile) {
       setVerificationSuccess(true);
       setErrorMessage('');
     } else {
@@ -137,7 +135,6 @@ const Services = () => {
       setVerificationSuccess(false);
     }
   };
-
   const handleDownloadApp = () => {
     try {
       // Using require with file-loader
